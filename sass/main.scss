@@ -1,6 +1,10 @@
 @import "./reset";
 @import "./colors";
 
+html {
+	scroll-padding-top: 82px;
+}
+
 body {
 	// position: relative;
 	font-family: "Montserrat", sans-serif;
@@ -124,6 +128,13 @@ header {
 	.aboutus-card-text {
 		font-size: 14px;
 	}
+
+	.aboutus-hover {
+		transition: color 0.3s;
+	}
+	.aboutus-hover:hover {
+		color: $main-color;
+	}
 }
 
 @media (min-width: 375px) {
@@ -147,6 +158,12 @@ header {
 		p {
 			font-size: 20px;
 		}
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		scroll-padding-top: 72px;
 	}
 }
 
