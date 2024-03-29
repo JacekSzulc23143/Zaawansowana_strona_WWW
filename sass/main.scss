@@ -153,6 +153,18 @@ header {
 		background-color: rgba(0, 0, 0, 0.7);
 		z-index: -5;
 	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 36px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+		}
+	}
 }
 
 @media (min-width: 375px) {
@@ -182,6 +194,10 @@ header {
 @media (min-width: 992px) {
 	html {
 		scroll-padding-top: 72px;
+	}
+
+	.aboutus-hero {
+		background-image: url("../img/about-hero-big.jpg");
 	}
 }
 

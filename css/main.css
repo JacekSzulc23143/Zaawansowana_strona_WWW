@@ -140,6 +140,15 @@ header .fa-chevron-down {
   background-color: rgba(0, 0, 0, 0.7);
   z-index: -5;
 }
+.aboutus-hero .aboutus-hero-item {
+  margin: 10px 0;
+}
+.aboutus-hero .aboutus-hero-item i {
+  font-size: 36px;
+}
+.aboutus-hero .aboutus-hero-item .aboutus-hero-title {
+  font-size: 24px;
+}
 
 @media (min-width: 375px) {
   header h1 {
@@ -160,6 +169,9 @@ header .fa-chevron-down {
 @media (min-width: 992px) {
   html {
     scroll-padding-top: 72px;
+  }
+  .aboutus-hero {
+    background-image: url("../img/about-hero-big.jpg");
   }
 }
 @media (min-width: 1200px) {
