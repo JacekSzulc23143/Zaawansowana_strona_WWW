@@ -130,9 +130,10 @@ header {
 		font-size: 14px;
 	}
 
-	.aboutus-hover {
-		transition: color 0.3s;
-	}
+	// .aboutus-hover {
+	// 	transition: color 0.3s;
+	// }
+
 	.aboutus-hover:hover {
 		color: $main-color;
 	}
@@ -359,11 +360,11 @@ header {
 	}
 }
 
-@media (min-width: 319px) {
+@media (max-width: 320px) {
 	.team {
 		.card {
 			img {
-				height: 130px;
+				height: 210px;
 			}
 		}
 	}

@@ -160,9 +160,6 @@ header .fa-chevron-down {
 .aboutus .aboutus-card-text {
   font-size: 14px;
 }
-.aboutus .aboutus-hover {
-  transition: color 0.3s;
-}
 .aboutus .aboutus-hover:hover {
   color: #039dff;
 }
@@ -349,9 +346,9 @@ header .fa-chevron-down {
   color: #ddd;
 }
 
-@media (min-width: 319px) {
+@media (max-width: 320px) {
   .team .card img {
-    height: 130px;
+    height: 210px;
   }
 }
 @media (min-width: 375px) {
